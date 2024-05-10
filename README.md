@@ -63,20 +63,20 @@ Vormittag:
 
 
 3. Git-Workflow im Team
-- Branching-Modelle und deren Einsatz
-- Commit-Strategien und Best Practices
+    - Branching-Modelle und deren Einsatz
+    - Commit-Strategien und Best Practices
 
 
 Nachmittag:
 
 4. Git Rebase und Merge-Strategien
-- Unterschiede zwischen Merge und Rebase
-- Konfliktlösung und Best Practices
+    - Unterschiede zwischen Merge und Rebase
+    - Konfliktlösung und Best Practices
 
 
 5. Praktische Übungen
-- Einrichten einer GitLab-Projektumgebung
-- Anwenden von Git-Befehlen in Teamszenarien
+    - Einrichten einer GitLab-Projektumgebung
+    - Anwenden von Git-Befehlen in Teamszenarien
 
 
 ## Tag 2: Vertiefung Git-Workflow, CI/CD & GitOps
@@ -84,30 +84,30 @@ Nachmittag:
 Vormittag:
 
 1. Gitflow-Workflow
-- Einrichtung und Verwendung von Gitflow
-- Vorteile gegenüber anderen Workflows
+    - Einrichtung und Verwendung von Gitflow
+    - Vorteile gegenüber anderen Workflows
 
 
 2. Tags, Releases und deren Verwaltung
-- Erstellen und Verwalten von Tags und Releases
-- Einsatz von Tags für Versionskontrolle
+    - Erstellen und Verwalten von Tags und Releases
+    - Einsatz von Tags für Versionskontrolle
 
 
 3. Einführung in GitLab CI/CD und gitlab.yml
-- Grundkonzepte von Continuous Integration und Continuous Deployment
-- Erstellung und Verwaltung von .gitlab-ci.yml Dateien
+    - Grundkonzepte von Continuous Integration und Continuous Deployment
+    - Erstellung und Verwaltung von .gitlab-ci.yml Dateien
 
 
 Nachmittag:
 
 4. Praktische Übungen zu CI/CD
-- Erstellen von einfachen CI/CD Pipelines
-- Automatisierung von Tests (inkl. git-pages) und Deployments
+    - Erstellen von einfachen CI/CD Pipelines
+    - Automatisierung von Tests (inkl. git-pages) und Deployments
 
 
 5. Grundlagen von GitOps
-- Definition und Vorteile von GitOps
-- Einsatzbereiche und Best Practices
+    - Definition und Vorteile von GitOps
+    - Einsatzbereiche und Best Practices
 
 
 ## Tag 3: Docker in der Entwicklung, GitLab CI, und Deployment-Strategien
@@ -115,30 +115,30 @@ Nachmittag:
 Vormittag:
 
 1. Lokale Entwicklung mit Docker
-- Grundlagen von Docker und dessen Integration in Entwicklungsprozesse
-- Nutzung von Docker in Kombination mit GitLab CI
+    - Grundlagen von Docker und dessen Integration in Entwicklungsprozesse
+    - Nutzung von Docker in Kombination mit GitLab CI
 
 
 2. GitLab-Runner und Docker-Registry
-- Konfiguration und Einsatz von GitLab-Runnern
-- Verwendung der GitLab Docker-Registry
+    - Konfiguration und Einsatz von GitLab-Runnern
+    - Verwendung der GitLab Docker-Registry
 
 
 Nachmittag:
 
 3. Erstellen von Release- und Tagged-Images
-- Automatisierung der Erstellung von Docker-Images mit GitLab CI
-- Verwaltung und Nutzung von Images für verschiedene Umgebungen
+    - Automatisierung der Erstellung von Docker-Images mit GitLab CI
+    - Verwaltung und Nutzung von Images für verschiedene Umgebungen
 
 
 4. Möglichkeiten des Deployments und Verwaltung von Konfigurationen
-- Übersicht über Deployment-Strategien (z.B. Blue-Green-Deployment)
-- Verwaltung von Umgebungsvariablen und Secrets
+    - Übersicht über Deployment-Strategien (z.B. Blue-Green-Deployment)
+    - Verwaltung von Umgebungsvariablen und Secrets
 
 
 5. Abschlussübung und Diskussion
-- Implementierung einer kompletten CI/CD-Pipeline inklusive Deployment
-- Q&A, Feedbackrunde und Kursabschluss
+    - Implementierung einer kompletten CI/CD-Pipeline inklusive Deployment
+    - Q&A, Feedbackrunde und Kursabschluss
 
 
 # 4. Methoden
