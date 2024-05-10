@@ -6,25 +6,28 @@ Er baut Basiswissen über die wichtigsten Aspekte der Testautomatisierung auf un
 
 Es erfolgt die Erarbeitung eines Git-Workflows und Erstellung unterschiedlicher CI/CD Pipelines für einfache bis komplexe Software Projekt/Szenarien.
 
-• In Ihrem Hause: Hamburg und Kiel--> Hamburg only wurde später entschieden
-• Dauer in Tagen: 3
-• Anzahl Teilnehmer pro Kurs: 12
+- • In Ihrem Hause: Hamburg und Kiel--> Hamburg only wurde später entschieden
+- • Dauer in Tagen: 3
+- • Anzahl Teilnehmer pro Kurs: 12
+
 
 # 1.) Themenübersicht/Agenda
 
 ## Tag 1: Einführung und Git-Workflow
-• Begrüßung und Kursüberblick
-• Grundlagen von Git und GitLab
-• Git-Workflow im Team
-• Git Rebase und Merge-Strategien
-• Übungen: Git-Befehle, Branching und Merging
+- • Begrüßung und Kursüberblick
+- • Grundlagen von Git und GitLab
+- • Git-Workflow im Team
+- • Git Rebase und Merge-Strategien
+- • Übungen: Git-Befehle, Branching und Merging
+
 
 ## Tag 2: GitFlow, CI/CD, und GitOps
-• Vertiefung Gitflow-Workflow
-• Tags, Releases und deren Verwaltung
-• Einführung in GitLab CI/CD und gitlab.yml
-• Praktische Übungen: Erstellen von CI/CD Pipelines
-• GitOps Grundlagen
+- • Vertiefung Gitflow-Workflow
+- • Tags, Releases und deren Verwaltung
+- • Einführung in GitLab CI/CD und gitlab.yml
+- • Praktische Übungen: Erstellen von CI/CD Pipelines
+- • GitOps Grundlagen
+
 
 ## Tag 3: Docker, GitLab CI, und Deployment
 • Docker in der lokalen Entwicklung und mit GitLab CI
