@@ -125,6 +125,7 @@ Vormittag:
 
 
 Nachmittag:
+
 3. Erstellen von Release- und Tagged-Images
 - Automatisierung der Erstellung von Docker-Images mit GitLab CI
 - Verwaltung und Nutzung von Images für verschiedene Umgebungen
