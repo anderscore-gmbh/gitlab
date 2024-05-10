@@ -11,7 +11,7 @@ Es erfolgt die Erarbeitung eines Git-Workflows und Erstellung unterschiedlicher 
 - Anzahl Teilnehmer pro Kurs: 12
 
 
-# 1.) Themenübersicht/Agenda
+# 1. Themenübersicht/Agenda
 
 ## Tag 1: Einführung und Git-Workflow
 - Begrüßung und Kursüberblick
@@ -37,7 +37,7 @@ Es erfolgt die Erarbeitung eines Git-Workflows und Erstellung unterschiedlicher 
 - IaC (Infrastructure as Code) und Abschlussdiskussion
 
 
-# 2.) Zeitablauf des Unterrichtes
+# 2. Zeitablauf des Unterrichtes
 
 - Täglich 8 Stunden Unterricht, unterteilt in:
 - Vormittagsblock (inkl. 15 Min. Pause)
@@ -46,7 +46,7 @@ Es erfolgt die Erarbeitung eines Git-Workflows und Erstellung unterschiedlicher 
 - Zeiteinteilung pro Thema basiert auf Komplexität und Übungsbedarf.
 
 
-# 3.) Inhalt/Beschreibung
+# 3. Inhalt/Beschreibung
 
 ## Tag 1: Einführung in Git und GitLab, Git-Workflow im Team
 
@@ -141,7 +141,7 @@ Nachmittag:
 - Q&A, Feedbackrunde und Kursabschluss
 
 
-# 4.) Methoden
+# 4. Methoden
 
 - Theoretische Einführungen für Konzeptverständnis.
 - Praktische Übungen für Hands-on Erfahrung.
@@ -149,14 +149,14 @@ Nachmittag:
 - Diskussionen und Q&A-Sessions für individuelle Fragen und Vertiefungen.
 
 
-# 5.) Schulungsmaterial
+# 5. Schulungsmaterial
 
 - Präsentationen zur Vermittlung der Theorie.
 - Übungsdateien und Beispiele auf GitLab bereitgestellt.
 - Handouts und Cheatsheets als Nachschlagewerk für Teilnehmer.
 
 
-# 6.) Dozenteneinsatz
+# 6. Dozenteneinsatz
 
 - Erfahrene Dozenten aus der Praxis mit tiefem Verständnis von Git, GitLab, CI/CD und Docker.
 - Interaktive Lehrmethoden zur Förderung des Lernengagements.
