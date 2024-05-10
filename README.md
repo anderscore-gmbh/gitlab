@@ -53,13 +53,13 @@ Es erfolgt die Erarbeitung eines Git-Workflows und Erstellung unterschiedlicher 
 Vormittag:
 
 1. Einführung und Kursüberblick
-- Zielsetzung des Kurses
-- Vorstellungsrunde und Erwartungsabfrage
+    - Zielsetzung des Kurses
+    - Vorstellungsrunde und Erwartungsabfrage
 
 
 2. Grundlagen von Git und GitLab
-- Geschichte und Konzepte von Git
-- Überblick über GitLab und seine Funktionen
+    - Geschichte und Konzepte von Git
+    - Überblick über GitLab und seine Funktionen
 
 
 3. Git-Workflow im Team
