@@ -1,6 +1,6 @@
-FROM java:latest
+FROM bash:latest
 WORKDIR /app
 COPY /app .
-CMD ["java","-jar","app.jar"]
-EXPOSE 8080
-
+RUN ["bash","setup.sh"]
+CMD ["bash","script.sh"]
+EXPOSE 1234
