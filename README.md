@@ -161,3 +161,26 @@ Nachmittag:
 - Erfahrene Dozenten aus der Praxis mit tiefem Verständnis von Git, GitLab, CI/CD und Docker.
 - Interaktive Lehrmethoden zur Förderung des Lernengagements.
 - Bereitstellung von individuellem Feedback und Unterstützung während der Übungen.
+
+# 7. Anforderung an Technik und Ausstattung für Präsenz Schulungen
+
+## Schulungsraum
+
+- Technikraum mit PC-Arbeitsplätzen inkl. Tische und Stühle
+- Freies W-LAN steht in allen Dataport Schulungsräumen zur Verfügung.
+
+## Benötigte Software
+
+- Git
+- GitLab Account
+- Docker
+- Visual Studio Code (VS Code) oder ein anderer bevorzugter Code-Editor
+- Ein moderner Webbrowser
+- Terminal-Tools
+
+## Raumausstattung
+
+- Flipchart Anzahl: 1
+- Beamer oder Touchboard
+- Für den Anschluss eigener Geräte (Laptop/Tablet/etc.) benötigt der Dozent einen
+- HDMI-Zugang am Gerät oder einen HDMI Adapter.
