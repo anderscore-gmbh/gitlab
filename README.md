@@ -15,23 +15,26 @@ Es erfolgt die Erarbeitung eines Git-Workflows und Erstellung unterschiedlicher 
 
 ## Tag 1: Einführung und Git-Workflow
 - Begrüßung und Kursüberblick
-- Grundlagen von Git und GitLab
-- Git-Workflow im Team
+- Grundlagen von Git
 - Git Rebase und Merge-Strategien
+- Git Remote
+- Grundlagen von GitLab
+- Git-Workflow im Team
 - Übungen: Git-Befehle, Branching und Merging
 
 
 ## Tag 2: GitFlow, CI/CD, und GitOps
 - Vertiefung Gitflow-Workflow
 - Tags, Releases und deren Verwaltung
+- GitLab-Runner
 - Einführung in GitLab CI/CD und gitlab.yml
 - Praktische Übungen: Erstellen von CI/CD Pipelines
-- GitOps Grundlagen
 
 
 ## Tag 3: Docker, GitLab CI, und Deployment
+- GitOps Grundlagen
 - Docker in der lokalen Entwicklung und mit GitLab CI
-- GitLab-Runner und Docker-Registry von GitLab
+- Docker-Registry von GitLab
 - Erstellen von Release- und Tagged-Images
 - Deployment-Strategien und Umgebungsmanagement
 - IaC (Infrastructure as Code) und Abschlussdiskussion
