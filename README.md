@@ -59,25 +59,26 @@ Vormittag:
     - Zielsetzung des Kurses
     - Vorstellungsrunde und Erwartungsabfrage
 
+2. Git Rebase und Merge-Strategien
+    - Unterschiede zwischen Merge und Rebase
+    - Konfliktlösung und Best Practices
 
 2. Grundlagen von Git und GitLab
     - Geschichte und Konzepte von Git
-    - Überblick über GitLab und seine Funktionen
 
-
-3. Git-Workflow im Team
-    - Branching-Modelle und deren Einsatz
-    - Commit-Strategien und Best Practices
+3. Git Remote
 
 
 Nachmittag:
 
-4. Git Rebase und Merge-Strategien
-    - Unterschiede zwischen Merge und Rebase
-    - Konfliktlösung und Best Practices
+4. Git-Workflow im Team
+    - Branching-Modelle und deren Einsatz
+    - Commit-Strategien und Best Practices
 
+5. Grundlagen von GitLab
+    - Überblick über GitLab und seine Funktionen
 
-5. Praktische Übungen
+6. Praktische Übungen
     - Einrichten einer GitLab-Projektumgebung
     - Anwenden von Git-Befehlen in Teamszenarien
 
@@ -90,56 +91,54 @@ Vormittag:
     - Einrichtung und Verwendung von Gitflow
     - Vorteile gegenüber anderen Workflows
 
-
 2. Tags, Releases und deren Verwaltung
     - Erstellen und Verwalten von Tags und Releases
     - Einsatz von Tags für Versionskontrolle
 
-
-3. Einführung in GitLab CI/CD und gitlab.yml
-    - Grundkonzepte von Continuous Integration und Continuous Deployment
-    - Erstellung und Verwaltung von .gitlab-ci.yml Dateien
+3. GitLab-Runner
+    - Konfiguration und Einsatz von GitLab-Runnern
 
 
 Nachmittag:
 
-4. Praktische Übungen zu CI/CD
+4. Einführung in GitLab CI/CD und gitlab.yml
+    - Grundkonzepte von Continuous Integration und Continuous Deployment
+    - Erstellung und Verwaltung von .gitlab-ci.yml Dateien
+
+5. Praktische Übungen zu CI/CD
     - Erstellen von einfachen CI/CD Pipelines
     - Automatisierung von Tests (inkl. git-pages) und Deployments
-
-
-5. Grundlagen von GitOps
-    - Definition und Vorteile von GitOps
-    - Einsatzbereiche und Best Practices
 
 
 ## Tag 3: Docker in der Entwicklung, GitLab CI, und Deployment-Strategien
 
 Vormittag:
 
-1. Lokale Entwicklung mit Docker
+1. Grundlagen von GitOps
+    - Definition und Vorteile von GitOps
+    - Einsatzbereiche und Best Practices
+
+2. Lokale Entwicklung mit Docker
     - Grundlagen von Docker und dessen Integration in Entwicklungsprozesse
     - Nutzung von Docker in Kombination mit GitLab CI
 
-
-2. GitLab-Runner und Docker-Registry
-    - Konfiguration und Einsatz von GitLab-Runnern
+3. Container/Docker-Registry
     - Verwendung der GitLab Docker-Registry
 
 
 Nachmittag:
 
-3. Erstellen von Release- und Tagged-Images
+4. Erstellen von Release- und Tagged-Images
     - Automatisierung der Erstellung von Docker-Images mit GitLab CI
     - Verwaltung und Nutzung von Images für verschiedene Umgebungen
 
 
-4. Möglichkeiten des Deployments und Verwaltung von Konfigurationen
+5. Möglichkeiten des Deployments und Verwaltung von Konfigurationen
     - Übersicht über Deployment-Strategien (z.B. Blue-Green-Deployment)
     - Verwaltung von Umgebungsvariablen und Secrets
 
 
-5. Abschlussübung und Diskussion
+6. Abschlussübung und Diskussion
     - Implementierung einer kompletten CI/CD-Pipeline inklusive Deployment
     - Q&A, Feedbackrunde und Kursabschluss
 
