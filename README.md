@@ -71,12 +71,12 @@ Vormittag:
 
 Nachmittag:
 
-5. Git-Workflow im Team
+5. Grundlagen von GitLab
+    - Überblick über GitLab und seine Funktionen
+
+6. Git-Workflow im Team
     - Branching-Modelle und deren Einsatz
     - Commit-Strategien und Best Practices
-
-6. Grundlagen von GitLab
-    - Überblick über GitLab und seine Funktionen
 
 7. Praktische Übungen
     - Einrichten einer GitLab-Projektumgebung
