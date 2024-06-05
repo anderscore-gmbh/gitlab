@@ -63,22 +63,22 @@ Vormittag:
     - Unterschiede zwischen Merge und Rebase
     - Konfliktlösung und Best Practices
 
-2. Grundlagen von Git und GitLab
+3. Grundlagen von Git und GitLab
     - Geschichte und Konzepte von Git
 
-3. Git Remote
+4. Git Remote
 
 
 Nachmittag:
 
-4. Git-Workflow im Team
+5. Git-Workflow im Team
     - Branching-Modelle und deren Einsatz
     - Commit-Strategien und Best Practices
 
-5. Grundlagen von GitLab
+6. Grundlagen von GitLab
     - Überblick über GitLab und seine Funktionen
 
-6. Praktische Übungen
+7. Praktische Übungen
     - Einrichten einer GitLab-Projektumgebung
     - Anwenden von Git-Befehlen in Teamszenarien
 
