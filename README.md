@@ -59,15 +59,14 @@ Vormittag:
     - Zielsetzung des Kurses
     - Vorstellungsrunde und Erwartungsabfrage
 
-2. Git Rebase und Merge-Strategien
+2. Grundlagen von Git
+    - Geschichte und Konzepte von Git
+
+3. Git Rebase und Merge-Strategien
     - Unterschiede zwischen Merge und Rebase
     - Konfliktlösung und Best Practices
 
-3. Grundlagen von Git und GitLab
-    - Geschichte und Konzepte von Git
-
 4. Git Remote
-
 
 Nachmittag:
 
