@@ -1,0 +1,59 @@
+default:
+  image: docker:20.10.16
+  services:
+    - name: docker:20.10.16-dind
+      alias: docker
+  before_script:
+    - docker stop hello-world-dataport || true && docker rm hello-world-dataport || true
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+
+stages: # Vier Stages
+  - build
+  - test
+  - release
+  - deploy
+
+variables:
+  # Use TLS  https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#tls-enabled
+  DOCKER_TLS_CERTDIR: "/certs"
+  CONTAINER_TEST_IMAGE: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+  CONTAINER_RELEASE_IMAGE: $CI_REGISTRY_IMAGE:latest # Variable für 4.
+
+build:
+  stage: build
+  script:
+    - docker build --pull -t $CONTAINER_TEST_IMAGE .
+    - docker push $CONTAINER_TEST_IMAGE # 1. Build wird in die Container Registry gepushed
+
+test1:
+  stage: test
+  script:
+    - docker pull $CONTAINER_TEST_IMAGE # 2. Von den nachfolgenden Stages (bei Bedarf) gepulled
+    - echo 'Testing container in test 1 '# 3. Zwei paralell laufende Tests
+    - docker run -itd -p 9090:9090 $CONTAINER_TEST_IMAGE
+
+test2:
+  stage: test
+  script:
+    - docker pull $CONTAINER_TEST_IMAGE # 2. Von den nachfolgenden Stages (bei Bedarf) gepulled
+    - echo 'Testing container in test 2' # 3. Zwei paralell laufende Tests
+    - docker run -itd -p 9091:9090 $CONTAINER_TEST_IMAGE
+
+release-image:
+  stage: release
+  script:
+    - docker pull $CONTAINER_TEST_IMAGE # 2. Von den nachfolgenden Stages (bei Bedarf) gepulled
+    - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE # 4. Änderungen am main werden als latest getagged
+    - docker push $CONTAINER_RELEASE_IMAGE
+  only:
+    - main
+
+# 5. Deployment über anwendungs-spezifisches Deploy-Skript
+deploy:
+  stage: deploy
+  script:
+    - chmod +x ./deploy.sh
+    - ./deploy.sh
+  only:
+    - main
+  environment: production
