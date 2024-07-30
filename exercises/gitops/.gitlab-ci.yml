@@ -1,0 +1,14 @@
+stages:
+  - build
+
+buildjob:
+  stage: build
+  services:
+    - docker:dind
+  image: docker:latest
+  variables:
+    VERSION: v1
+  script:
+    - docker build -t $CI_REGISTRY_IMAGE:$VERSION .
+    - echo "$CI_REGISTRY_PASSWORD" | docker login $CI_REGISTRY -u $CI_REGISTRY_USER --password-stdin
+    - docker push $CI_REGISTRY_IMAGE:$VERSION
